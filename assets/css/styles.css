@@ -1,0 +1,35 @@
+body{
+  background-color: #101012;
+  font-family: roboto;
+  color: #fff;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.1rem solid #454545;
+}
+
+header img{
+  width: 180px;
+}
+
+.sectionsContainer{
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  display: inline-flex;
+  width: 100%;
+}
+
+@media (max-width: 600px){
+.sectionsContainer{
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+}}
+div span#sectionsTitle{
+  
+}
+
